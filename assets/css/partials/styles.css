@@ -1,0 +1,125 @@
+.pad-views1{
+  padding-bottom: 1rem;
+}
+
+.views1 {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+.views1:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.amenities {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.amenities-list {
+  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+
+.amenities-list:last-child {
+  border: none;
+}
+
+.amenities-list a {
+  text-decoration: none;
+  color: #000;
+
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+  display: block;
+  width: 250px;
+}
+
+.amenities-list a:hover {
+  font-size: 30px;
+  background: #f6f6f6;
+}
+
+.headerAll{
+  color: #574312;
+  text-align: center; 
+  font-size: 50px; 
+  font-family: 'Vollkorn', cursive;
+}
+
+.headerAll span{
+  text-align: center; 
+  font-size: 80px; 
+  font-family: 'Vollkorn', cursive;
+}
+
+.subheaderAll{
+  text-align: center; 
+  font-family: 'Acme', sans-serif;
+}
+
+.commonsubHeading{
+  padding-bottom: 1.5rem;
+  font-family: 'Courgette', cursive;
+}
+
+.mainBunglow {
+  max-width: 90%;
+  height: auto;
+}
+
+.floorPlan {
+  max-width: 100%;
+  height: auto;
+}
+
+.architecture {
+  max-height: 25%;
+  width: inherit;
+}
+
+.architecture1 {
+  max-height: 100%;
+  width: inherit;
+}
+
+@media (max-width: 992px) {
+  .headerAll{
+    font-size: 60px;
+  }
+  .subheaderAll{
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .headerAll{
+    font-size: 55px;
+  }
+  .subheaderAll{
+    font-size: 25px;
+  }
+}
+@media (max-width: 576px) {
+  .headerAll{
+    font-size: 45px;
+  }
+  .subheaderAll{
+    font-size: 20px;
+  }
+}
+@media (max-width: 450px) {
+  .headerAll{
+    font-size: 40px;
+  }
+  .subheaderAll{
+    font-size: 18px;
+  }
+}
+
